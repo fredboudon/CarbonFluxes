@@ -1,0 +1,23 @@
+name: carbonfluxes
+channels:
+  - fredboudon
+  - conda-forge
+dependencies:
+  - python=3.10.*
+  - openalea.lpy>=3.13.*
+  - openalea.plantgl>=3.20.*
+  - jupyterlab>=3.0.16
+  - jupyterlab_widgets
+  - jupyter-collaboration
+  - notebook
+  - ipywidgets
+  - ipython
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - pycairo
+  - netCDF4
+  - pip
+  - pip:
+    - pgljupyter>=2.0.*
